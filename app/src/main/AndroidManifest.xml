@@ -16,6 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".FiveBoard" />
+        <activity android:name=".ThreeBoard"></activity>
     </application>
 
 </manifest>

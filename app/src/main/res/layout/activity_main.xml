@@ -1,126 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".MainActivity">
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.rodgwizz.tic_tac_toe.MainActivity"
+    android:background="#FFF3E0">
 
-    <RelativeLayout
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/b2"
+        android:layout_marginTop="61dp"
+           android:clickable="false"
+        android:text="ONE PLAYER"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:background="#303F9F"/>
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="124dp"
+        android:layout_marginBottom="500dp"
+        android:background="#303F9F"
+        android:text="TWO PLAYERS"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <RadioGroup
+        android:id="@+id/RGtwoPlayer"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="visible">
 
-        <TextView
-            android:id="@+id/player1"
-            android:layout_width="wrap_content"
+        <RadioButton
+            android:id="@+id/twoRB"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Player 1:0"
-            android:textSize="33sp" />
+            android:text="Five Board"
+            android:textSize="20dp" />
 
-        <TextView
-            android:id="@+id/player2"
-            android:layout_width="wrap_content"
+        <RadioButton
+            android:id="@+id/threeRB"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/player1"
-            android:text="Player 2:0"
-            android:textSize="33sp" />
+            android:text="Three Board"
+            android:textSize="20dp" />
+    </RadioGroup>
 
-        <Button
-            android:id="@+id/reset"
-            android:layout_width="wrap_content"
-            android:layout_height="69dp"
-            android:layout_alignParentRight="true"
-            android:layout_centerVertical="true"
-            android:layout_marginRight="20dp"
-            android:text="RESET"
-            android:textSize="30sp" />
-
-    </RelativeLayout>
-
-     <LinearLayout
+    <Button
+        android:id="@+id/play"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1">
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="120dp"
+        android:background="#303F9F"
+        android:text="START GAME"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
 
-        <Button
-            android:id="@+id/button_00"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:textSize="60sp" />
-
-        <Button
-            android:id="@+id/button_01"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:textSize="60sp" />
-
-        <Button
-            android:id="@+id/button_02"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:textSize="60sp" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1">
-
-        <Button
-            android:id="@+id/button_10"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:textSize="60sp" />
-
-        <Button
-            android:id="@+id/button_11"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:textSize="60sp" />
-
-        <Button
-            android:id="@+id/button_12"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:textSize="60sp" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1">
-
-        <Button
-            android:id="@+id/button_20"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:textSize="60sp" />
-
-        <Button
-            android:id="@+id/button_21"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:textSize="60sp" />
-
-        <Button
-            android:id="@+id/button_22"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:textSize="60sp" />
-
-
-    </LinearLayout>
-
-</LinearLayout>
+</RelativeLayout>
