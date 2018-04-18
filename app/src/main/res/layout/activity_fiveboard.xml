@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
+=======
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+>>>>>>> 03ad92a25abbf8a011ed4f4c68a636c50e8739d5
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -75,117 +79,54 @@
         android:layout_weight="1">
 
         <Button
+<<<<<<< HEAD
             android:id="@+id/button_05"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:textSize="60sp" />
-
-        <Button
-            android:id="@+id/button_06"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:textSize="60sp" />
-
-        <Button
-            android:id="@+id/button_07"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:textSize="60sp" />
-        <Button
-            android:id="@+id/button_08"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:textSize="60sp" />
-
-        <Button
-            android:id="@+id/button_09"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:textSize="60sp" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1">
-
-        <Button
+=======
             android:id="@+id/button_10"
+>>>>>>> 03ad92a25abbf8a011ed4f4c68a636c50e8739d5
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:textSize="60sp" />
 
         <Button
+<<<<<<< HEAD
+            android:id="@+id/button_06"
+=======
             android:id="@+id/button_11"
+>>>>>>> 03ad92a25abbf8a011ed4f4c68a636c50e8739d5
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:textSize="60sp" />
 
         <Button
+<<<<<<< HEAD
+            android:id="@+id/button_07"
+=======
             android:id="@+id/button_12"
+>>>>>>> 03ad92a25abbf8a011ed4f4c68a636c50e8739d5
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:textSize="60sp" />
         <Button
+<<<<<<< HEAD
+            android:id="@+id/button_08"
+=======
             android:id="@+id/button_13"
+>>>>>>> 03ad92a25abbf8a011ed4f4c68a636c50e8739d5
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:textSize="60sp" />
 
         <Button
+<<<<<<< HEAD
+            android:id="@+id/button_09"
+=======
             android:id="@+id/button_14"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:textSize="60sp" />
-
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1">
-
-        <Button
-            android:id="@+id/button_15"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:textSize="60sp" />
-
-        <Button
-            android:id="@+id/button_16"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:textSize="60sp" />
-
-        <Button
-            android:id="@+id/button_17"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:textSize="60sp" />
-        <Button
-            android:id="@+id/button_18"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:textSize="60sp" />
-
-        <Button
-            android:id="@+id/button_19"
+>>>>>>> 03ad92a25abbf8a011ed4f4c68a636c50e8739d5
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -199,34 +140,177 @@
         android:layout_weight="1">
 
         <Button
+<<<<<<< HEAD
+            android:id="@+id/button_10"
+=======
             android:id="@+id/button_20"
+>>>>>>> 03ad92a25abbf8a011ed4f4c68a636c50e8739d5
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:textSize="60sp" />
 
         <Button
+<<<<<<< HEAD
+            android:id="@+id/button_11"
+=======
             android:id="@+id/button_21"
+>>>>>>> 03ad92a25abbf8a011ed4f4c68a636c50e8739d5
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:textSize="60sp" />
 
         <Button
+<<<<<<< HEAD
+            android:id="@+id/button_12"
+=======
             android:id="@+id/button_22"
+>>>>>>> 03ad92a25abbf8a011ed4f4c68a636c50e8739d5
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:textSize="60sp" />
         <Button
+<<<<<<< HEAD
+            android:id="@+id/button_13"
+=======
             android:id="@+id/button_23"
+>>>>>>> 03ad92a25abbf8a011ed4f4c68a636c50e8739d5
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:textSize="60sp" />
 
         <Button
+<<<<<<< HEAD
+            android:id="@+id/button_14"
+=======
             android:id="@+id/button_24"
+>>>>>>> 03ad92a25abbf8a011ed4f4c68a636c50e8739d5
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="60sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+<<<<<<< HEAD
+            android:id="@+id/button_15"
+=======
+            android:id="@+id/button_30"
+>>>>>>> 03ad92a25abbf8a011ed4f4c68a636c50e8739d5
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="60sp" />
+
+        <Button
+<<<<<<< HEAD
+            android:id="@+id/button_16"
+=======
+            android:id="@+id/button_31"
+>>>>>>> 03ad92a25abbf8a011ed4f4c68a636c50e8739d5
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="60sp" />
+
+        <Button
+<<<<<<< HEAD
+            android:id="@+id/button_17"
+=======
+            android:id="@+id/button_32"
+>>>>>>> 03ad92a25abbf8a011ed4f4c68a636c50e8739d5
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="60sp" />
+        <Button
+<<<<<<< HEAD
+            android:id="@+id/button_18"
+=======
+            android:id="@+id/button_33"
+>>>>>>> 03ad92a25abbf8a011ed4f4c68a636c50e8739d5
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="60sp" />
+
+        <Button
+<<<<<<< HEAD
+            android:id="@+id/button_19"
+=======
+            android:id="@+id/button_34"
+>>>>>>> 03ad92a25abbf8a011ed4f4c68a636c50e8739d5
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="60sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+<<<<<<< HEAD
+            android:id="@+id/button_20"
+=======
+            android:id="@+id/button_40"
+>>>>>>> 03ad92a25abbf8a011ed4f4c68a636c50e8739d5
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="60sp" />
+
+        <Button
+<<<<<<< HEAD
+            android:id="@+id/button_21"
+=======
+            android:id="@+id/button_41"
+>>>>>>> 03ad92a25abbf8a011ed4f4c68a636c50e8739d5
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="60sp" />
+
+        <Button
+<<<<<<< HEAD
+            android:id="@+id/button_22"
+=======
+            android:id="@+id/button_42"
+>>>>>>> 03ad92a25abbf8a011ed4f4c68a636c50e8739d5
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="60sp" />
+        <Button
+<<<<<<< HEAD
+            android:id="@+id/button_23"
+=======
+            android:id="@+id/button_43"
+>>>>>>> 03ad92a25abbf8a011ed4f4c68a636c50e8739d5
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="60sp" />
+
+        <Button
+<<<<<<< HEAD
+            android:id="@+id/button_24"
+=======
+            android:id="@+id/button_44"
+>>>>>>> 03ad92a25abbf8a011ed4f4c68a636c50e8739d5
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"

@@ -8,5 +8,8 @@
     <string name="empty_square"> </string>
     <string name="x_selected">X</string>
     <string name="o_selected">O</string>
+<<<<<<< HEAD
     <string name="start_game">START GAME</string>
+=======
+>>>>>>> 03ad92a25abbf8a011ed4f4c68a636c50e8739d5
 </resources>
